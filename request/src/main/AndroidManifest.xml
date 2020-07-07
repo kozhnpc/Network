@@ -1,0 +1,13 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="work.kozh.request">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".retrofit.NetApplication"
+        android:allowBackup="true"
+        android:networkSecurityConfig="@xml/network_security"
+        android:supportsRtl="true"></application>
+
+</manifest>
